@@ -1,0 +1,134 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and Layout */
+  body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .header {
+    background-color: #0078d7;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .main-container {
+    flex: 1;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Search Section */
+  .search-section {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .search-section h2 {
+    margin-bottom: 1rem;
+    color: #0078d7;
+  }
+  
+  .search-form {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  
+  .search-input {
+    width: 70%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: box-shadow 0.2s;
+  }
+  
+  .search-input:focus {
+    box-shadow: 0 0 5px rgba(0, 120, 215, 0.5);
+  }
+  
+  .search-btn {
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .search-btn:hover {
+    background-color: #005bb5;
+  }
+  
+  /* App Links Section */
+  .app-links-section {
+    text-align: center;
+  }
+  
+  .app-links-section h2 {
+    margin-bottom: 1rem;
+    color: #0078d7;
+  }
+  
+  .app-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .app-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+    width: 150px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .app-card i {
+    font-size: 2rem;
+    color: #0078d7;
+  }
+  
+  .app-card span {
+    display: block;
+    margin-top: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .app-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #0078d7;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
